@@ -1,3 +1,10 @@
 ## Build outputs
 **/bin
 **/obj
+**/.dtbcache*
+
+## User Info
+**/.suo
+
+## Visual Studio files
+**/.vs

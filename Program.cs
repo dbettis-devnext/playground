@@ -21,10 +21,11 @@ internal class Program
         Console.WriteLine(reverse);
 
         // CREATE A HISTOGRAM OF THE CHARACTER COUNT
-        Dictionary<string, int> histogram = new Dictionary<string, int>();
-        
+        Dictionary<char, int> histogram = new Dictionary<char, int>();
+
         /*
-        * CREATE HISTOGRAM OF ALL ALPHA-NUMERIC CHARACTERS IN **TEXT** CONSTANT (10 min)
+        * CREATE CASE-INSENSITIVE HISTOGRAM OF ALL ALPHA-NUMERIC CHARACTERS IN **TEXT** CONSTANT (10 min)
+        *   HINT: Use the Linq library where applicable
         */
 
         foreach (var item in histogram.OrderByDescending(h => h.Value).ThenBy(h => h.Key))
